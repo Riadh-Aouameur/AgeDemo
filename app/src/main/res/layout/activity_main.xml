@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/backlinear"
+    android:gravity="center">
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Age"
+    android:textColor="#33b8ff"
+    android:textSize="40sp"
+    android:layout_margin="15dp"
+    android:padding="15dp"
+
+    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your birth year "
+        android:inputType="number"
+        android:padding="15dp"
+        android:id="@+id/ed"
+        android:background="@drawable/edittext"
+        android:textCursorDrawable="@drawable/cursor"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="your age is"
+        android:textSize="34sp"
+        android:padding="15dp"
+        android:textColor="#33b8ff"
+        android:id="@+id/tx"
+
+        />
+    <Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="17dp"
+    android:layout_margin="5dp"
+    android:text="Get Age"
+    android:textColor="#fff"
+        android:background="@drawable/button"
+        android:id="@+id/btn"
+    />
+</LinearLayout>
